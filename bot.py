@@ -90,7 +90,7 @@ tweet(txt, "tweet/post.jpg")
 requests.post(
     "https://api.mynotifier.app",
     {
-        "apiKey": "0a9e341b-96b6-495f-ba13-25f4a402dd6c",  # This is your own private key
+        "apiKey": "***** Enter API KEY *****",  # This is your own private key
         "message": "Tweeeted SucessFully",  # Could be anything
         "description": txt,  # Optional
         "body": "",  # Optional
